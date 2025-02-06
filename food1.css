@@ -1,0 +1,80 @@
+/* General Reset */
+* {
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: darkblue;
+    color: pink;
+}
+
+header {
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: upper-alpha;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration:blueviolet;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('food-background-food-menu-backround-photo.jpg');
+    background-size: cover;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.menu-item {
+    background-color: #dd091b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
